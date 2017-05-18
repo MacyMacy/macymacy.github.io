@@ -1,4 +1,41 @@
-div>div> .makeMeBlue  {
-background-color:blue;
+.mygrid {
+    width: 600px;
+    display: grid;
+    margin: 10x auto;
+    
+ grid-gap:10px;
+
+    grid-template-columns:1fr;
+    grid-template-rows: 30px 30px 100px 30px;
+    grid-template-areas:"About"
+        "Portfolio"
+        "work"
+        "Contact";
+       
+}
+portfolio{
+    grid-area:Portfolio;
+    
+
+}
+About{
+    grid-area: About;
+    
+}
+Contact{
+    grid-area:Contact;
+    
+}
+work{
+    grid-area:work;
 }
 
+
+.mygrid:hover {
+    opacity: 0.2;
+    
+}
+
+.mygrid>* {
+    border: 1px solid black;
+}
