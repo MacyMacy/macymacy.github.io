@@ -10,7 +10,7 @@ body {
     height: 80%; 
     width: 100%;
     position: relative;
-    background-image: url(oops%20080.png);
+    background-image: url(headerimage.png);
     
     background-repeat: no-repeat;
     background-position: center center;
@@ -81,7 +81,7 @@ width: 100%;
     
 }
 .half ul {
-    list-style-image: url(bullet%20point.png);
+    list-style-image: url(bulletpoint.png);
     text-align: left;
     font-size: 1.5em;
     display: inline-block;
